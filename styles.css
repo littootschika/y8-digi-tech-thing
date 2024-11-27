@@ -1,0 +1,80 @@
+
+.headerButton{
+  color: white;
+  text-align: center;
+  font-size: 10vh;
+  display: flex;
+  height: 15vh;
+  width: 19%;
+  background-color: skyblue;
+  margin-left: 1.5vh;
+  margin-right: 1.5vh;
+  border: 5px double yellow;
+  border-radius: 7px;
+}
+#header{
+  display: flex;
+  align-items: center;
+  height: 22vh;
+  width: 100%;
+  background-color: crimson;
+}
+#sidebar{
+  height: 100%;
+  width: 5vw;
+  background: rgba(0, 128, 255, 0.8);
+  z-index: 100;
+  position: absolute;
+}
+#sidebar > div> a{
+  margin: 10px;
+}
+#sidebar >div{
+  margin: 10px;
+  border:3px solid 
+}
+#contentContainer{
+  padding-left: 3vh;
+  margin-left: 5vw;
+  background: skyblue;
+  position: absolute;
+}
+#logo{
+  text-align: center;
+}
+
+#classSection{
+  flex-flow: horizontal;
+  display: flex;
+}
+table{
+  height: 15vh;
+  width: 15vw;
+  border: 7px solid ;
+  background: linear-gradient(270deg, #555, #DDD);
+  border-radius: 15px;
+}
+th{
+  height: 0.5em;
+  color: red;
+  font-weight: 700;
+}
+td{
+  color: black;
+  background: transparent;
+}
+#importantAnnouncementsContainer{
+  height: 30vh;
+  width: 95vw;
+  border: 5px solid red;
+  border-radius: 25px;
+  font-size: 2em;
+  text-align: center;
+  overflow: scroll;
+}
+#unimportantAnnouncementsContainer{
+  font-size: 0.5em;
+  border: 3px solid green;
+  border-radius: 25px;
+  overflow: scroll;
+}
